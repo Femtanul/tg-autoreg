@@ -1,0 +1,111 @@
+{
+  "icloud": true,
+  "service_provider": "herosms",
+  "api_key": "YOUR_SMSBOWER_API_KEY",
+  "api_key_herosms": "YOUR_HEROSMS_API_KEY",
+  "country": "6",
+  "service": "tg",
+  "max_price": 0.1529,
+  "pid": [
+    "3237",
+    "2482",
+    "2482",
+    "1329"
+  ],
+  "api_tg": "YOUR_TG_API_ID",
+  "hash_tg": "YOUR_TG_API_HASH",
+  "api_url": "https://smsbower.online/stubs/handler_api.php",
+  "devices": [
+    "YOUR_DEVICE_SERIAL"
+  ],
+  "api_url_herosms": "https://hero-sms.com/stubs/handler_api.php",
+  "web_api": "https://smsbower.online/api",
+  "web_api_herosms": "https://hero-sms.com/api",
+  "forwarder_tg": "@your_forwarder_bot",
+  "phone": "+10000000000",
+  "false_phone": "10000**-**-00",
+  "pref": [],
+  "blocked_prefixes": [
+    "6285189",
+    "6285213",
+    "6285191",
+    "62838",
+    "628316",
+    "628312",
+    "62882"
+  ],
+  "api_bitrix": "http://your-bitrix-endpoint/login",
+  "checker_api": "https://your-checker-endpoint/api/tgcheck",
+  "email_api": "https://your-email-endpoint/api",
+  "owner_id": "YOUR_OWNER_ID",
+  "rent_duration": 0,
+  "use_rent": false,
+  "currency": 840,
+  "operators": "",
+  "fixed_price": false,
+  "ref": "",
+  "timeout_get_number": 300,
+  "timeout_wait_code": 360,
+  "max_attempts": 500,
+  "debug_mode": true,
+  "scrcpy_folder": "C:/path/to/scrcpy-win64",
+  "words1": [
+    "Mike",
+    "Alex",
+    "Lacosta",
+    "Pirse",
+    "likar",
+    "frade"
+  ],
+  "words2": [
+    "Haleo",
+    "dariko",
+    "fisnhman",
+    ".",
+    "Lazario",
+    " "
+  ],
+  "cards": [
+    {
+      "number": "0000000000000000",
+      "cvv": "000",
+      "mmYY": "0000",
+      "active": true,
+      "use": 50
+    }
+  ],
+  "mastercards": [
+    {
+      "number": "0000000000000000",
+      "cvv": "000",
+      "mmYY": "0000",
+      "active": true,
+      "use": 2
+    }
+  ],
+  "ui_elements": {
+    "start": "//*[@text='Start Messaging']",
+    "done": "//*[@content-desc='Done']",
+    "ban": "//*[@text='This phone number is banned.']",
+    "check_email": "//*[@text='Check Your Email']",
+    "choose_login": "//*[@text='Choose a login email']",
+    "add_email": "//*[@text='Add Email']",
+    "yes": "//*[@text='Yes']",
+    "verification_code": "//*[@text='Verification Code']",
+    "get_premium": "//*[@content-desc='Get Telegram Premium for 1 week']",
+    "terms_of_service": "//*[@text='I accept the Terms of Service.']",
+    "add_card": "//*[@text='Add Bank Card…']",
+    "not_now": "//*[@text='Not now']",
+    "continue": "//*[@text='Continue']",
+    "ban_card": "//*[@text='Sorry, the transaction has failed. Description of the error from payment provider: Invalid transaction details']",
+    "ok": "//*[@text='OK']",
+    "pay_meth": "//*[@text='Payment method']",
+    "pseudocode": "//*[@text='Enter code']",
+    "phonenn": "//*[@text='Your phone number']",
+    "profinfo": "//*[@text='Profile info']",
+    "password": "//*[@text='Your password']",
+    "input1": "//android.widget.EditText",
+    "input2": "(//android.widget.EditText)[2]",
+    "invalid_phone_number": "//*[@text='Invalid phone number. Please check the number and try again.']"
+  }
+}

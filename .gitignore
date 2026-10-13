@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.log
+*.session
+*.session-journal
+*.mp3
+.env
+
+# Local config with secrets - NEVER commit this
+config.json
+
+# Third-party binaries
+scrcpy-win64-*/
+
+# Selenium sessions
+sessions/
+*.pkl
+
+# IDE
+.vscode/
+.idea/
