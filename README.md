@@ -154,3 +154,12 @@ This project is a reference implementation of a physical-device automation farm.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+### Optional: scrcpy for device mirroring
+
+To see live device screens while the orchestrator runs, install
+[scrcpy](https://github.com/Genymobile/scrcpy/releases) and point
+`scrcpy_folder` in `config.json` to the extracted folder.
+
+The launcher `cmdd.bat` (Windows) iterates over connected ADB devices
+and spawns a scrcpy window for each one.
