@@ -329,6 +329,8 @@ The webhook must receive SMS messages from the phone that holds the SIM card. Tw
 
 ---
 
+Please note: I take no responsibility for whether this project will work on your device or not. We may have different hardware, environments, and implementation methods for the parts that are not shown in this repository. Feel free to use this code as a base and modify it to fit your specific needs.
+
 # Русский
 
 ## Обзор
@@ -628,6 +630,9 @@ curl -X POST http://localhost:5000/ \
 MIT — see [LICENSE](LICENSE).
 
 ---
+
+Обратите внимание: я не несу ответственности за то, заработает ли этот проект на вашем устройстве. У нас могут отличаться девайсы, окружение и способы реализации тех элементов, которые не показаны в репозитории. Вы можете свободно брать этот код за основу и дописывать его под свои конкретные потребности.
+
 
 ## Disclaimer
 
